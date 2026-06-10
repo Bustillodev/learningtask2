@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>.: javascript 05 :.</title>
+        <script>
+            function getName()
+            {
+                let name = document.getElementById("txtName").value;
+                let password = document.getElementById("passPassword").value;
+
+                if (name == "rojen" && password == "123")
+                {
+                    window.location = "java05page2.html";
+                }  
+		else if (name == "rojen" && password != "123") {                  
+                        document.getElementById("alert").innerHTML = "Wrong Password";
+                         }
+                else {
+                    document.getElementById("alert").innerHTML = name + " DO NOT have access !";
+                         }
+            }
+        </script>
+    </head>
+    <body>
+        <label>What is my name</label><br>
+        <input type="text" id="txtName"><br>
+        <label>What is my password</label><br>
+        <input type="password" id="passPassword"><br>
+        <button onClick="return getName()">Submit</button>
+        <div id="alert"></div>
+    </body>
+</html>
