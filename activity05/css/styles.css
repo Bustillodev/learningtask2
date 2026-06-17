@@ -1,0 +1,16 @@
+body
+{
+    background-color: wheat;
+}
+.wrapper
+{
+    width: 100%;
+    border: 2px #000 solid ;
+    margin: 0 auto;
+    min-height: 200px;
+}
+.header
+{
+    background-image: url(../images/pat.png);
+    min-height: 900px;
+}

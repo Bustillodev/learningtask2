@@ -1,0 +1,38 @@
+body 
+{
+    background-color: #ff0000;
+}
+#wrapper 
+{
+    border: 2px solid #ffe600;
+    background-color: #000000;
+    min-height: 100%;
+    margin: 5px;
+}
+.header 
+{
+    border: 1px solid #000;
+    background-color: rgb(0, 0, 0);
+    height: 300px;
+}     
+.main-navigation
+{
+    background-color: #eeff00;
+    height: 70px;
+    text-align: center;
+    color: #c0c0c0;
+}
+.main-navigation a
+{
+    text-align: center;;
+    color: #ff0000;
+    text-decoration: underline;
+}
+.main-navigation a:hover
+{
+    text-decoration: none;
+}
+h1
+{
+    color: #ff0000;
+}
